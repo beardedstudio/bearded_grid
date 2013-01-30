@@ -6,12 +6,12 @@ Gem::Specification.new do |s|
   s.date = BeardedGrid::DATE
 
   # Gem Details
-  s.name = "bearded-grid"
+  s.name = "bearded_grid"
   s.description = %q{A responsive grid system from Bearded}
   s.summary = %q{A responsive CSS grid system from Bearded}
   s.authors = ["Matt Griffin", "Patrick Fulton"]
   s.email = ["matt@bearded.com", "patrick@bearded.com"]
-  s.homepage = "https://github.com/beardedstudio/bearded-grid"
+  s.homepage = "https://github.com/beardedstudio/bearded_grid"
 
   # Gem Files
   s.files += Dir.glob("lib/**/*.*")
