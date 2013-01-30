@@ -1,17 +1,17 @@
-require './lib/beardedgrid'
+require './lib/bearded_grid'
 
 Gem::Specification.new do |s|
   # Release Specific Information
-  s.version = Beardedgrid::VERSION
-  s.date = Beardedgrid::DATE
+  s.version = BeardedGrid::VERSION
+  s.date = BeardedGrid::DATE
 
   # Gem Details
-  s.name = "beardedgrid"
+  s.name = "bearded-grid"
   s.description = %q{A responsive grid system from Bearded}
   s.summary = %q{A responsive CSS grid system from Bearded}
   s.authors = ["Matt Griffin", "Patrick Fulton"]
   s.email = ["matt@bearded.com", "patrick@bearded.com"]
-  s.homepage = "https://github.com/beardedstudio/beardedgrid"
+  s.homepage = "https://github.com/beardedstudio/bearded-grid"
 
   # Gem Files
   s.files += Dir.glob("lib/**/*.*")

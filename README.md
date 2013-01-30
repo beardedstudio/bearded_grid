@@ -1,4 +1,4 @@
-beardedgrid
+bearded-grid
 ===========
 
 Our RWD Grid System, Gemified.
@@ -6,4 +6,4 @@ Our RWD Grid System, Gemified.
 In your main Compass compilation file:
 
 @import "compass";
-@import "grid";
+@import "bearded/grid";
